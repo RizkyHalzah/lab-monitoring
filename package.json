@@ -1,0 +1,22 @@
+{
+  "name": "lab-monitoring",
+  "version": "1.0.0",
+  "description": "Laboratory Monitoring System - WebRTC peer-to-peer monitoring",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "generate-cert": "node scripts/generate-cert.js"
+  },
+  "author": "Generated",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "selfsigned": "^1.10.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

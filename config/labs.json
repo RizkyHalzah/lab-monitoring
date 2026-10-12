@@ -1,0 +1,26 @@
+[
+  {
+    "id": "LAB-B10",
+    "name": "Lab Komputer B10",
+    "location": "Gedung A",
+    "ip": "192.168.110.93"
+  },
+  {
+    "id": "LAB-B11",
+    "name": "Lab Komputer B11",
+    "location": "Gedung A",
+    "ip": "192.168.1.11"
+  },
+  {
+    "id": "LAB-TKJ",
+    "name": "Lab TKJ",
+    "location": "Gedung B",
+    "ip": "192.168.1.20"
+  },
+  {
+    "id": "LAB-MM",
+    "name": "Lab Multimedia",
+    "location": "Gedung B",
+    "ip": "192.168.1.21"
+  }
+]

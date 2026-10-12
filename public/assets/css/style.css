@@ -1,0 +1,39 @@
+:root{
+  --primary:#0d6efd;
+}
+body{background:#f8f9fa;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial}
+.sidebar{width:220px}
+.card{border:0}
+.badge{border-radius:.5rem}
+.rounded{border-radius:.6rem}
+.shadow-sm{box-shadow:0 2px 8px rgba(15,15,15,0.06)}
+.navbar{height:64px}
+#localVideo{min-height:320px}
+
+.toast-wrap{position:fixed;right:16px;bottom:16px;z-index:1200}
+
+.progress{background-color:#e9ecef}
+.progress-bar{transition:width 0.15s linear}
+
+#micLevelBar{
+  transition:width 50ms linear, background-color 100ms ease;
+}
+
+#remoteAudioLevel{
+  transition:width 50ms linear, background-color 100ms ease;
+}
+
+#btn-mic-toggle{
+  transition:all 0.2s ease;
+}
+
+#btn-mic-toggle.btn-warning{
+  background-color:#ffc107;
+  border-color:#ffc107;
+  color:#000;
+}
+
+/* small responsive tweaks */
+@media (max-width:768px){
+  .sidebar{display:none}
+}

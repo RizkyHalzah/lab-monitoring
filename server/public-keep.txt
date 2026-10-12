@@ -1,0 +1,1 @@
+This folder is served as static public content. Use the public/ folder next to server/ instead.
