@@ -54,6 +54,10 @@ app.use(express.json());
 app.get('/.well-known/appspecific/com.chrome.devtools.json', (req, res) => {
   res.status(204).end();
 });
+// Root -> control panel (prevents 404 + CSP 'blocked' confusion on /)
+app.get('/', (req, res) => {
+  res.redirect('/control.html');
+});
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
 // Config endpoints
